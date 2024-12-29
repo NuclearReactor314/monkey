@@ -2,7 +2,7 @@ const outputDiv = document.getElementById("output");
 const targetMessage = `Congrats! You’ve been patient enough to see this. I know this is a bit ridiculous, but I just wanted to tell you that I really like you. I don’t know when I’ll finish this or when you’ll see it, so I’ll take the chance to wish you: Happy Thanksgiving, Merry Christmas, Happy New Year, Happy Easter, and also Good Morning, Good Afternoon, Good Evening, or Good Night.`;
 
 let randomText = "";
-let revealTimeout = 15000; // Adjust this value for when to reveal the final message (e.g., 15 seconds).
+let revealTimeout = 45000; // Adjust this value for when to reveal the final message (e.g., 15 seconds).
 
 // Generate random letters
 function generateRandomLetters(length) {
